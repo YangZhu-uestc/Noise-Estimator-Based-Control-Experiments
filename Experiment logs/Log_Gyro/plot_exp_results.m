@@ -1,4 +1,4 @@
-% theta tracking errors, all methods, reference 0.2 + 0.05sint rad, 
+%% theta tracking errors, all methods, reference 0.2 + 0.05sint rad, 
 figure;  
 width=700;   %宽度，像素数
 height=400;   %高度
@@ -35,7 +35,7 @@ xlim([60 100]);
 ylim([-0.03 0.03]);
 set(gca,'FontSize',8);%只能同时改变x y轴显示的字体大小;
 
-% theta, all methods, reference 0.2 + 0.05sint rad
+%% theta, all methods, reference 0.2 + 0.05sint rad
 figure;  
 width=700;   %宽度，像素数
 height=400;   %高度
@@ -75,8 +75,7 @@ legend('reference','without compensation','with KF','with NE (T=2)','Location','
 % ylim([-0.04 0.04]);
 % set(gca,'FontSize',8);%只能同时改变x y轴显示的字体大小;
 
-%%
-% theta tracking errors, NE, T=10, 5, 2
+%% theta tracking errors, NE, T=10, 5, 2
 figure;  
 width=700;   %宽度，像素数
 height=400;   %高度
@@ -112,7 +111,7 @@ xlim([60 100]);
 ylim([-0.03 0.02]);
 set(gca,'FontSize',8);%只能同时改变x y轴显示的字体大小;
 
-% theta response, NE, T=10, 5, 2
+%% theta response, NE, T=10, 5, 2
 figure;  
 width=700;   %宽度，像素数
 height=400;   %高度
