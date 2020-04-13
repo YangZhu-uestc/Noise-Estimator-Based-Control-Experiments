@@ -1,0 +1,9 @@
+Log_NE_T2_Input_Torque = Log_NE_T2_Input_Torque';
+Log_NE_T2_Input_Voltage = Log_NE_T2_Input_Voltage';
+Log_NE_T2_Noise = Log_NE_T2_Noise';
+Log_NE_T2_Noise_Estimation_Err = Log_NE_T2_Noise_Estimation_Err';
+Log_NE_T2_Sensor_Measurements = Log_NE_T2_Sensor_Measurements';
+Log_NE_T2_Theta_dot_Response = Log_NE_T2_Theta_dot_Response';
+Log_NE_T2_Theta_Response = Log_NE_T2_Theta_Response';
+Log_NE_T2_Tracking_Err = Log_NE_T2_Tracking_Err';
+Log_NE_T2_Tach_Current = Log_NE_T2_Tach_Current';
