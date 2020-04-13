@@ -1,4 +1,4 @@
-%% theta tracking errors, all methods, reference 0.2 + 0.05sint rad, 
+% theta tracking errors, all methods, reference 0.2 + 0.05sint rad, 
 figure;  
 width=700;   %宽度，像素数
 height=400;   %高度
@@ -14,8 +14,8 @@ plot(Log_NE_T5_Tracking_Err(1:endtime,1),Log_NE_T2_Tracking_Err(1:endtime,2),'r'
 % hold on;
 % plot(Log_NE_T10_Tracking_Err(1:endtime,1),Log_NE_T10_Tracking_Err(1:endtime,2),'Color',[1 0.7 0.0]);
 grid on;
-xlabel({'time$(s)$'},'Interpreter','latex','FontSize',15);
-ylabel({'$\tilde \theta (rad)$'},'Interpreter','latex','FontSize',17);
+xlabel({'time $(s)$'},'Interpreter','latex','FontSize',15);
+ylabel({'$\tilde \theta$ $(rad)$'},'Interpreter','latex','FontSize',17);
 % gca = legend('without compensation','with LPF (T=0.01)','with KF (Q=0.0001, R=0.01)','with MDE (a1=0.1)',4);
 % gca = legend('without compensation','with FDF (LPF)','with KF','with DE',4);
 % set( gca, 'Position', [0.68, 0.3, 0.05, 0.02]);    % [10, 50, 100, 400]为显示的位置坐标
@@ -34,7 +34,7 @@ xlim([60 100]);
 ylim([-0.03 0.02]);
 set(gca,'FontSize',8);%只能同时改变x y轴显示的字体大小;
 
-%% theta, all methods, reference 0.2 + 0.05sint rad
+% theta, all methods, reference 0.2 + 0.05sint rad
 figure;  
 width=700;   %宽度，像素数
 height=400;   %高度
@@ -52,8 +52,8 @@ plot(Log_NE_T5_Theta_Response(1:endtime,1),Log_NE_T2_Theta_Response(1:endtime,4)
 % hold on;
 % plot(Log_NE_T10_Theta_Response(1:endtime,1),Log_NE_T10_Theta_Response(1:endtime,4),'Color',[1 0.7 0.0]);
 grid on;
-xlabel({'time$(s)$'},'Interpreter','latex','FontSize',15);
-ylabel({'$\theta (rad)$'},'Interpreter','latex','FontSize',17);
+xlabel({'time $(s)$'},'Interpreter','latex','FontSize',15);
+ylabel({'$\theta$ $(rad)$'},'Interpreter','latex','FontSize',17);
 % gca = legend('without compensation','with LPF (T=0.01)','with KF (Q=0.0001, R=0.01)','with MDE (a1=0.1)',4);
 % gca = legend('without compensation','with FDF (LPF)','with KF','with DE',4);
 % set( gca, 'Position', [0.68, 0.3, 0.05, 0.02]);    % [10, 50, 100, 400]为显示的位置坐标
@@ -74,7 +74,8 @@ legend('reference','without compensation','with KF','with NE (T=2)','Location','
 % ylim([-0.04 0.04]);
 % set(gca,'FontSize',8);%只能同时改变x y轴显示的字体大小;
 
-%% theta tracking errors, NE, T=10, 5, 2
+%%
+% theta tracking errors, NE, T=10, 5, 2
 figure;  
 width=700;   %宽度，像素数
 height=400;   %高度
@@ -90,8 +91,8 @@ plot(Log_NE_T2_Tracking_Err(1:endtime,1),Log_NE_T2_Tracking_Err(1:endtime,2),'r'
 % hold on;
 % plot(Log_NE_T10_Tracking_Err(1:endtime,1),Log_NE_T10_Tracking_Err(1:endtime,2),'Color',[1 0.7 0.0]);
 grid on;
-xlabel({'time$(s)$'},'Interpreter','latex','FontSize',15);
-ylabel({'$\tilde \theta (rad)$'},'Interpreter','latex','FontSize',17);
+xlabel({'time $(s)$'},'Interpreter','latex','FontSize',15);
+ylabel({'$\tilde \theta$ $(rad)$'},'Interpreter','latex','FontSize',17);
 % gca = legend('without compensation','with LPF (T=0.01)','with KF (Q=0.0001, R=0.01)','with MDE (a1=0.1)',4);
 % gca = legend('without compensation','with FDF (LPF)','with KF','with DE',4);
 % set( gca, 'Position', [0.68, 0.3, 0.05, 0.02]);    % [10, 50, 100, 400]为显示的位置坐标
@@ -110,7 +111,7 @@ xlim([60 100]);
 ylim([-0.015 0.015]);
 set(gca,'FontSize',8);%只能同时改变x y轴显示的字体大小;
 
-%% theta response, NE, T=10, 5, 2
+% theta response, NE, T=10, 5, 2
 figure;  
 width=700;   %宽度，像素数
 height=400;   %高度
@@ -128,8 +129,8 @@ plot(Log_NE_T2_Theta_Response(1:endtime,1),Log_NE_T2_Theta_Response(1:endtime,4)
 % hold on;
 % plot(Log_NE_T10_Theta_Response(1:endtime,1),Log_NE_T10_Theta_Response(1:endtime,4),'Color',[1 0.7 0.0]);
 grid on;
-xlabel({'time$(s)$'},'Interpreter','latex','FontSize',15);
-ylabel({'$\theta (rad)$'},'Interpreter','latex','FontSize',17);
+xlabel({'time $(s)$'},'Interpreter','latex','FontSize',15);
+ylabel({'$\theta$ $(rad)$'},'Interpreter','latex','FontSize',17);
 % gca = legend('without compensation','with LPF (T=0.01)','with KF (Q=0.0001, R=0.01)','with MDE (a1=0.1)',4);
 % gca = legend('without compensation','with FDF (LPF)','with KF','with DE',4);
 % set( gca, 'Position', [0.68, 0.3, 0.05, 0.02]);    % [10, 50, 100, 400]为显示的位置坐标
